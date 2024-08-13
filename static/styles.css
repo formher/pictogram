@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header.navbar {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+ul.list-group {
+    margin-top: 20px;
+}
+
+ul.list-group a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.list-group a:hover {
+    text-decoration: underline;
+}

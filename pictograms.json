@@ -1,0 +1,17 @@
+[
+    {
+        "id": 0,
+        "name": "Ankh",
+        "description": "The ankh is an ancient Egyptian hieroglyphic symbol that represents life.",
+        "image": "images/ankh.png",
+        "culture": "Ancient Egypt",
+        "wikipedia_summary": "The ankh or key of life is an ancient Egyptian hieroglyphic symbol used to represent the word for \"life\" and, by extension, as a symbol of life itself."
+    },
+    {
+        "id": 1,
+        "name": "Eye of Horus",
+        "description": "The eye of Horus",
+        "image": "hours.png",
+        "culture": "Egypt"
+    }
+]

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Add Pictogram{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h2 class="card-title">Add New Pictogram</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea class="form-control" id="description" name="description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="image">Image URL:</label>
+                <input type="text" class="form-control" id="image" name="image" required>
+            </div>
+            <div class="form-group">
+                <label for="culture">Culture:</label>
+                <input type="text" class="form-control" id="culture" name="culture" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Pictogram</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
