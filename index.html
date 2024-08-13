@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pictogr.am - Capture Your Moments</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            gap: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #34495e;
+        }
+        .container {
+            padding: 2em;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        .intro h2 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .featured {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+        }
+        .featured img {
+            width: 30%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .featured img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>pictogr.am</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">Upload</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to pictogr.am</h2>
+            <p>Your one-stop destination for sharing and exploring stunning photographs. Join our community of passionate photographers and start showcasing your talent today!</p>
+        </section>
+        <section class="featured">
+            <h2>Featured Photos</h2>
+            <img src="https://via.placeholder.com/400" alt="Featured Photo 1">
+            <img src="https://via.placeholder.com/400" alt="Featured Photo 2">
+            <img src="https://via.placeholder.com/400" alt="Featured Photo 3">
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 pictogr.am. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
